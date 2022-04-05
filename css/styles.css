@@ -23,7 +23,6 @@ p {
   min-height: calc(100vh - 80px);
   max-width: 980px;
   margin: 0 auto;
-  border: 2px solid #0c0d10;
 }
 
 nav {
@@ -53,6 +52,7 @@ footer {
   align-items: center;
   justify-content: center;
   color: #bc902d;
+  font-size: 14pt;
 }
 
 #arcOne {
@@ -119,6 +119,108 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.aboutUC {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 8px;
+}
+.aboutUC p {
+  text-indent: 16px;
+  font-size: 14pt;
+  width: calc(50% - 100px);
+  padding: 8px;
+}
+.aboutUC .left {
+  text-align: right;
+}
+.aboutUC .logo {
+  background-image: url(../images/logo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.aboutUC .right {
+  text-align: left;
+}
+
+.aboutGus {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.aboutGus .gusHeadshot {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/gus.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.aboutGus p {
+  text-indent: 16px;
+  font-size: 14pt;
+  width: calc(100% - 200px);
+}
+
+.aboutHaley {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.aboutHaley p {
+  text-indent: 16px;
+  font-size: 14pt;
+  width: calc(100% - 200px);
+}
+.aboutHaley .haleyHeadshot {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/haley.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+.contactUC .logo {
+  background-image: url(../images/logo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.contactGus .gusHeadshot {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/gus.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.contactHaley .haleyHeadshot {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/haley.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  margin-left: 8px;
 }
 
 /*# sourceMappingURL=styles.css.map */

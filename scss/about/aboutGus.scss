@@ -1,0 +1,22 @@
+.aboutGus {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    .gusHeadshot {
+        width: 200px;
+        height: 200px;
+        background-image: url(../images/gus.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        margin-right: 8px;
+    }
+
+    p {
+        text-indent: 16px;
+        font-size: 14pt;
+        width: calc(100% - 200px);
+    }
+}

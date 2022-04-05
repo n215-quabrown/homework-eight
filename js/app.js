@@ -21,7 +21,34 @@ let homeContent = `<div class="banner"></div>
     <div class="arcHero" id="arcSix"></div>
     <div class="arcHero" id="arcSeven"></div>
 </div>`;
-let aboutContent = ``;
+let aboutContent = `<div class="aboutUC">
+<p class="left">Unprepared Casters is free to listen to, but is optionally crowdfunded by a Patreon, which
+    has a pledge of $5,109 per month. The
+    Patreon has five tiers: $2, $5, $10, $15, and $25 per month. Each tier provides all
+    of the benefits of each lower tier in addition to its own benefits.</p>
+<div class="logo"></div>
+<p class="right">The podcast's model of short arcs very loosely strung together has allowed the world of the
+    podcast to develop slowly and naturally. Every arc so far has taken place in the kingdom of Hyranor.
+    Several of the arcs have taken place in a specific region of the kingdom known as the Upnorth, which
+    contains only one city: Glecaria.</p>
+</div>
+<div class="aboutGus">
+<div class="gusHeadshot"></div>
+<p>Gus Rachels is one of the co-hosts of the show, and is the Dungeon Master for each even numbered arc. His
+    general style for the arcs thus far has been to use Dungeons & Dragons as a medium for genre stories.
+    Gus' largest additions to the world of Unprepared Casters have been the thriving city of Glaceria and
+    the expansiveness of the Lovejoy family, a powerful and rich family that dominates the politics of the
+    entire kingdom.</p>
+</div>
+<div class="aboutHaley">
+<p>Haley Whipjack is one of the co-hosts of the show, and is the Dungeon Master for each odd numbered arc.
+    Her style so far for the arcs has been to tell slight variations on classic D&D stories and adventures,
+    contrasting with the bizzare genre stories of Gus' arcs. Haley's additions to the world of Unprepared
+    Casters are generally smaller scale, but build the smaller lore of the everyday people in the kingdom.
+    Examples of this would be the long-dead profession of sky piracy, and several towns within the world,
+    including Tyle, the capital city.</p>
+<div class="haleyHeadshot"></div>
+</div>`;
 let contactContent = ``;
 let episodesContent = ``;
 

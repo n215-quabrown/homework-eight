@@ -1,0 +1,31 @@
+.aboutUC {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
+
+    p {
+        text-indent: 16px;
+        font-size: 14pt;
+        width: calc(50% - 100px);
+        padding: 8px;
+    }
+
+    .left {
+        text-align: right;
+    }
+
+    .logo {
+        background-image: url(../images/logo.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+    }
+
+    .right {
+        text-align: left;
+    }
+}

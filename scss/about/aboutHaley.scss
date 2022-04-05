@@ -1,0 +1,22 @@
+.aboutHaley {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    p {
+        text-indent: 16px;
+        font-size: 14pt;
+        width: calc(100% - 200px);
+    }
+
+    .haleyHeadshot {
+        width: 200px;
+        height: 200px;
+        background-image: url(../images/haley.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        margin-left: 8px;
+    }
+}
