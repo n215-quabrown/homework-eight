@@ -80,10 +80,63 @@ let contactContent = `<div class="contactUC">
     TikTok: <a target="blank" href="https://www.tiktok.com/@whipjack">@whipjack</a>
 </p>
 </div>`;
-let episodesContent = ``;
+let episodesContent = `<div class="episodesContent">
+<div class="arcTile">
+    <div class="arcLogo" id="arcOne"></div>
+    <p>Arc one of Unprepared Casters is a simple low-leveled adventure centered around the core of the
+        platonic ideal of a game of Dungeons & Dragons. The party meets in a tavern, leaves town on a quest,
+        enteres a dungeon, and finds a dragon. Haley was the Dungeon Master for this inaugural adventure of
+        the Unprepared Casters podcast.</p>
+</div>
+<div class="arcTile">
+    <p>Arc two of Unprepared Casters is a heist story. This adventure sees four criminals come together
+        under the leadership of Robyn Lovejoy to rob a large jemstone from the Lovejoy famaily, a powerful
+        noble family in the city of Glaceria. This inevitably leads to disasterous complications, but the
+        players manage to succeed in their ultimate goals. Gus is the Dungeon Master for this off-the-wall
+        adventure.</p>
+    <div class="arcLogo" id="arcTwo"></div>
+</div>
+<div class="arcTile">
+    <div class="arcLogo" id="arcThree"></div>
+    <p>The third arc of Unprepared Casters sees the return of Haley as the Dungeon Master for the first
+        high-level adventure of the podcast. A team that previously saved the world from an infernal
+        invasion is reconvened by their wizard, Annie (played by Gus), on suspicion of a return from the
+        devils they thought they defeated years ago. This arc culminates in a high-stakes battle beneath the
+        city of Glaceria for the fate of the entire kingdom of Hyranor.</p>
+</div>
+<div class="arcTile">
+    <p>The fourth arc of Unprepared Casters is the return of Gus as Dungeon Master for another
+        unconventional story for Dungeons & Dragons, this time with a sports themed arc. This is the first
+        level 1 adventure of the podcast, and sees a group of teenagers thrust into an ancient evil ritual
+        centered around the sport of orbula.</p>
+    <div class="arcLogo" id="arcFour"></div>
+</div>
+<div class="arcTile">
+    <div class="arcLogo" id="arcFive"></div>
+    <p>Unprepared Casters' fifth arc is advertised as a festival story, and is run by Haley. The party of
+        this arc consists of festival employees and atendees alike, who must solve a mystery before
+        Fulldark, midnight on the longest night of the year. This arc takes place in the past of Hyranor,
+        approximately 200 years before the time period that the first four arcs of the podcast take place
+        in.</p>
+</div>
+<div class="arcTile">
+    <p>Unprepared Casters' sixth arc is advertised as the deadly survival arc, run by Gus. This arc sees the
+        last crew of sky pirates in Hyranor crashing in the harsh Upnorth, forced to walk though frigid
+        conditions through the ice and snow to the only save haven this far north, the protected city of
+        Glaceria. This arc takes place in the past as well, approximately 50 years after arc five.</p>
+    <div class="arcLogo" id="arcSix"></div>
+</div>
+<div class="arcTile">
+    <div class="arcLogo" id="arcSeven"></div>
+    <p>The most recent and currently running arc of the podcast is the seventh, a direct sequel to the first
+        run by Haley. This adventure sees the party of the first arc reunited three years after the ending
+        of that adventure. The characters have all grown and developed different amounts, having seperated
+        and followed their own paths in life. </p>
+</div>
+</div>`;
 
 function init() {
-    // loadPage("home");
+    loadPage("home");
     initListeners();
 }
 

@@ -266,5 +266,22 @@ footer {
     font-size: 10pt;
   }
 }
+.episodesContent .arcTile {
+  display: flex;
+  align-items: center;
+}
+.episodesContent .arcTile .arcLogo {
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.episodesContent .arcTile p {
+  width: calc(100% - 200px);
+  text-indent: 16px;
+  font-size: 14pt;
+  margin: 8px;
+}
 
 /*# sourceMappingURL=styles.css.map */
