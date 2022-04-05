@@ -1,0 +1,18 @@
+nav {
+    height: 40px;
+    background-color: $alcyonTeal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $alcyonHighlight;
+    font-size: 26pt;
+    max-width: $siteWidth;
+    margin: 0 auto;
+
+    a {
+        font-size: 16pt;
+        text-decoration: none;
+        color: $alcyonGold;
+        margin: 0 5%;
+    }
+}
