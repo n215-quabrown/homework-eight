@@ -1,0 +1,17 @@
+.homeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        margin-top: 16px;
+        text-decoration: underline;
+        font-size: 34pt;
+        text-align: center;
+    }
+
+    p {
+        text-indent: 16px;
+        font-size: 14pt;
+    }
+}
