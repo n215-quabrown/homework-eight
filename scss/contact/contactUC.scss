@@ -1,4 +1,8 @@
 .contactUC {
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+
     .logo {
         background-image: url(../images/logo.jpg);
         background-position: center;
@@ -7,5 +11,20 @@
         border-radius: 50%;
         height: 200px;
         width: 200px;
+        margin-right: 8px;
+        margin-left: calc(50% - 200px);
+    }
+
+    p {
+        font-size: 14pt;
+    }
+}
+
+@media screen and (max-width: 745px) {
+    .contactUC {
+        p {
+            font-size: 10pt;
+
+        }
     }
 }

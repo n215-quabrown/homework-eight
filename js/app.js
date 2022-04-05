@@ -49,7 +49,37 @@ let aboutContent = `<div class="aboutUC">
     including Tyle, the capital city.</p>
 <div class="haleyHeadshot"></div>
 </div>`;
-let contactContent = ``;
+let contactContent = `<div class="contactUC">
+<div class="logo"></div>
+<p>
+    Patreon: <a target="blank" href="https://www.patreon.com/unpreparedcasters/membership">Unprepared
+        Casters</a><br>
+    Twitter: <a target="blank" href="https://twitter.com/UnprepCasters">@UnprepCasters</a><br>
+    Instagram: <a target="blank"
+        href="https://www.instagram.com/unpreparedcasters/">unpreparedcasters</a><br>
+    YouTube: <a target="blank" href="https://www.youtube.com/c/UnpreparedCasters">Unprepared Casters</a><br>
+    Twitch: <a target="blank" href="https://www.twitch.tv/unpreparedcasters">Unprepared Casters</a><br>
+    Business Email: unpreparedcasters@gmail.com
+</p>
+</div>
+<div class="contactGus">
+<div class="gusHeadshot"></div>
+<p>
+    Twitter: <a target="blank" href="https://twitter.com/gusrachels">@gusrachels</a><br>
+    Instagram: <a target="blank" href="https://www.instagram.com/GusRachels/">gusrachels</a><br>
+    Twitch: <a target="blank" href="https://www.twitch.tv/gusrachels">Gus Rachels</a><br>
+    TikTok: <a target="blank" href="https://www.tiktok.com/@gusthebard">@gusthebard</a>
+</p>
+</div>
+<div class="contactHaley">
+<div class="haleyHeadshot"></div>
+<p>
+    Twitter: <a target="blank" href="https://twitter.com/whippedjack">@whippedjack</a><br>
+    YouTube: <a target="blank" href="https://www.youtube.com/channel/UCxJwug-gAYe9pE-YvNkodOg">Haley
+        Whipjack</a><br>
+    TikTok: <a target="blank" href="https://www.tiktok.com/@whipjack">@whipjack</a>
+</p>
+</div>`;
 let episodesContent = ``;
 
 function init() {
